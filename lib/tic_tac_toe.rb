@@ -119,8 +119,7 @@ def current_player(board)
   end
 end
 
-def play 
-  
+def play(board)
   while !over?(board)
-  
+    
 end
