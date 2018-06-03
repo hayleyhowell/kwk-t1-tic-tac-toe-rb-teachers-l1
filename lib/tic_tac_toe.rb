@@ -100,4 +100,11 @@ def turn(board)
   display_board(board)
 end
 
-
+def turn_count(board)
+  count = 0 
+  board.each do |spot|
+    if spot != " "
+      count += 1 
+    end
+  end
+end
