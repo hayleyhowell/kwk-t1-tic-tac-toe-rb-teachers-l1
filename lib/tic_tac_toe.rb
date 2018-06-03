@@ -118,3 +118,9 @@ def current_player(board)
     return "O"
   end
 end
+
+def play 
+  
+  while !over?(board)
+  
+end
